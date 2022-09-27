@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(52,58,64);
+    display: flex;
+    justify-content: center;
+    height: 5.5rem;
+}
+.logo{
+    padding-left: 3.5rem;
+    display: flex;
+    align-items: center;
+    width: 35%;  
+}
+.title2{
+    font-size: 1.5rem; 
+    font-weight: 400;
+    color: white; 
+}
+.codoacodo{
+    width: 8.5rem;
+}
+.nav{
+    padding-right: 6rem;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.verde{
+    color: #2a9f44;
+}
+
+/* SECTION PRINCIPAL*/
+
+.sectionPrincipal{ 
+    background-image: linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.5)), url("../assets/imagenes/ba1.jpg");
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 10%;
+}
+.contenidoPrincipal{
+    padding-right: 10%;
+    padding-bottom: 10%;
+    width: 45%;
+    color: white;
+    text-align: right;
+    font-size: 1.4rem;
+}
+.botones{
+    padding-top: 2%;
+}
+.boton{
+    text-decoration: none; 
+    color: white;
+    border: solid 1px;
+    border-radius: 5px;  
+    padding-inline: 2%; 
+    padding-block: 1%;
+}
+.green{
+    background-color: #29a744;
+    color: white;
+    border: solid 1px #29a744;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+        
+/* SECTION TARJETAS */
+
+.tituloTarjetas{
+    text-align: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    line-height: 1rem;
+}
+.sectionTarjetas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    padding-top: 0.5rem;
+}
+.padreTarjetas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjetas__flex{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+} 
+.tarjeta{
+    width: 30%;
+    border: solid 1px rgb(214, 214, 214);
+    border-radius: 5px;
+    box-shadow: 6px 9px 25px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 9px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 9px 25px 0px rgba(0,0,0,0.75);
+}
+.tarjetaImagen{
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.detalleTarjeta{
+    display: flex;
+    color: white;
+    font-weight: bold;
+}   
+.react{
+    background-color: #17a2b9;
+    border-radius: 0.3rem;
+    margin-left: 0.2rem;
+    padding: 0.2rem;
+}
+.js{
+    background-color: #ffc007;
+    border-radius: 0.3rem;
+    color: black;
+    padding: 0.2rem;
+}
+.negocios{
+    background-color: #6b747d;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+}
+.startups{
+    background-color: #dd3647;
+    border-radius: 0.3rem;
+    margin-left: 0.2rem;
+    padding: 0.2rem;
+}
+.contenidoTarjeta{
+    padding: 1.5rem;
+}
+.parrafoTarjeta{
+    margin-top: 1rem;
+    line-height: 1.5rem;    
+}
+.containerHijoTabla{
+    margin-top: 4rem;
+}
+
+/* SECTION IMAGEN DIVIDIDA Y TEXTO */
+
+.sectionDividida{
+    display: flex;
+    height: 70vh;
+}
+.imagenIzq{
+    background-image: url(../assets/imagenes/honolulu.jpg);
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    margin-right: 1px;
+}
+.contenidoDer{
+    background-color: #353a40;
+    color: white;
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.parrafoDer{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+.conocemas{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    border: white solid 1px;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+/* SECTION FORMULARIO */
+
+.formPadre{
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.headerForm{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.nombreYApellido{
+    padding: 1rem;
+
+}
+.formulario{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.textoFormulario{
+    text-align: start;
+}
+.botonFormulario{
+    background-color: #96c93e;
+    border-radius: 5px;
+    padding: 0.5rem;    
+}
+.botonhijo{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* SECTION FOOTER */
+
+.footerPadre{
+    background: rgb(28,54,67);
+    background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(28,69,91,1) 41%, rgba(30,83,114,1) 100%);
+}
+.footerHijo{
+
+}
+.enlacesPadre{
+    text-align: center;
+    font-size: 1.2rem ;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 1300px){
+
+    .header{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .logo{
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        justify-content: center; 
+    }
+    .codoacodo{
+        width: 7rem;
+    }
+    .nav{
+        width: 100%;
+        flex-direction: column;
+        padding: 0%;
+        display: flex;
+        align-items: stretch;   
+    }
+    .link{
+        display: inline-block;
+        padding: 0.8rem; 
+        border-bottom: 1px solid white;
+        width: 100%;
+        
+    }
+
+    /* SECTION PRINCIPAL*/
+
+    .sectionPrincipal{ 
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .contenidoPrincipal{
+        padding: 1rem;
+        width: 90%;
+        text-align: center;
+        font-size: 1.2rem;
+        backdrop-filter: blur(4px);
+        border-radius: 10px;
+    }
+            
+    /* SECTION TARJETAS */
+    
+    .sectionTarjetas{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 2.5rem;
+        padding-top: 0.5rem;
+    }
+    .padreTarjetas{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tarjetas__flex{
+        width: 85%;
+        flex-direction: column;
+    } 
+    .tarjeta{
+        width: 100%;
+        margin-top: 5px;
+        box-shadow: 6px 9px 25px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 6px 9px 25px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 6px 9px 25px 0px rgba(0,0,0,0.75);
+    }
+
+    /* SECTION IMAGEN DIVIDIDA Y TEXTO */
+
+    @media screen and (max-width: 900px){
+    .sectionDividida{
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .imagenIzq{
+        background-size: cover;    
+        height: 100%;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+    .contenidoDer{
+        background-color: #353a40;
+        color: white;
+        height: 100%;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .parrafoDer{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+}
+}
