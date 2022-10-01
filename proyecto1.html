@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Proyecto HTML</title>
+        <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="./css/bootstrap.css">
         <link rel="stylesheet" href="./css/estilos.css">
     </head>
@@ -25,8 +26,8 @@
         <main class="main">
             <section class="sectionPrincipal">
                 <div class="contenidoPrincipal">
-                    <h1>Conf Bs As</h1> <br>
-                    <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. ¡Te esperamos!</p> <br>
+                    <h1>Conf Bs As</h1>
+                    <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. ¡Te esperamos!</p> 
                     <div class="botones">
                         <a class="boton comun" href="./pages/contacto.html">Quiero ser orador</a>
                         <a class="boton green" href="./pages/comprartickets.html">Comprar tickets</a>
@@ -34,7 +35,9 @@
                 </div>
             </section>
         </main>
+        
             <!--CARDS-->
+
             <section class="sectionTarjetas" id="oradores">
                 <div class="tituloTarjetas">
                     <p class="small">CONOCE A LOS</p>
@@ -87,7 +90,7 @@
                     <div class="containerHijoTabla">
                         <table class="table table-striped table-bordered table-hover table-condensed">
                             <tr>
-                                <th>Nomber del orador</th>
+                                <th>Orador</th>
                                 <th>Fecha y horario</th>
                                 <th>Lugar</th>
                             </tr>
@@ -110,54 +113,62 @@
                     </div>        
                 </div>        
             </section>
+
             <!--IMG+TEXT-->
+
             <section class="sectionDividida" id="lugarYFecha">
                 <div class="imagenIzq">
                 
                 </div>
                 <div class="contenidoDer">
                     <h2>Bs As - Octubre</h2>
-                        <p class="parrafoDer">Buenos Aires es la provincia y localidad mas grande del estado de Argentina. En los Estados Unidos, Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p> <br>
+                        <p class="parrafoDer">Buenos Aires es la provincia y localidad mas grande del estado de Argentina. En los Estados Unidos, Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p> 
                         <a class="conocemas" href="Conocé más">Conocé más</a>
                 </div>
             </section>
+
             <!--FORM-->
+
             <section id="convierteteEnOrador">
-                <div class="formPadre">
-                    <div class="headerForm">   
+                <div class="formPadre container">
+                    <div class="headerForm mb-2">   
                         <p class="small">CONVIÉRTETE EN UN</p>
                         <h2>ORADOR</h2>
-                        <p>Anótate como orador para dar una <abbr title="attribute">charla ignite</abbr>. Cuéntanos de qué quieres hablar!</p>
+                        <p class="">Anótate como orador para dar una <abbr title="attribute">charla ignite</abbr>. Cuéntanos de qué quieres hablar!</p>
                     </div> 
-                    <div class="formulario">   
-                        <form class="contenidoForm"action="">
-                            <div class="nombreYApellido">
-                                <input type="text" placeholder="Nombre">
-                                <input type="text" placeholder="Apellido">
+                    <div class="formulario container">   
+                        <form class="contenidoForm container"action="">
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Nombre">
+                                <input type="email" class="form-control" placeholder="Apellido">
                             </div>
-                            <textarea name="" id="" cols="100" rows="5"></textarea>
-                            <p class="textoFormulario">Recuerda incluir un título para tu charla</p>
-                            <div class="botonFormulario">
-                                <a class="botonhijo" href="">Enviar</a>
+                            <div class="mb-3">
+                                <textarea class="form-control w-100" placeholder="Sobre qué quieres hablar?" rows="5"></textarea>
+                                <p class="textoFormulario mt-2">Recuerda incluir un título para tu charla.</p>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-success" type="button">Enviar</button>
                             </div>
                         </form> 
                     </div>    
                 </div>
             </section>
+
             <!--FOOTER-->
-            <footer class="footerPadre">
-                <div class="footerHijo container">  
+
+            <footer class="footerPadre p-4 container-fluid">
+                <div class="footerHijo contariner">  
                     <div class="enlacesPadre row">   
-                        <div class="enlaceFooter col pt-4 pb-4 text"><a class="text-white text-decoration-none" href="">Preguntas frecuentes</a></div>
-                        <div class="enlaceFooter col pt-4 pb-4 text"><a class="text-white text-decoration-none" href="">Contáctanos</a></div>  
-                        <div class="enlaceFooter col pt-4 pb-4 text"><a class="text-white text-decoration-none" href="">Prensa</a></div>
-                        <div class="enlaceFooter col pt-4 pb-4 text"><a class="text-white text-decoration-none" href="">Conferencias</a></div>
-                        <div class="enlaceFooter col pt-4 pb-4 text"><a class="text-white text-decoration-none" href="">Términos y condiciones</a></div>
-                        <div class="enlaceFooter col pt-4 pb-4 text"><a class="text-white text-decoration-none" href="">Privacidad</a></div>
-                        <div class="enlaceFooter col pt-4 pb-4 text"><a class="text-white text-decoration-none" href="">Estudiantes</a></div>
+                        <div class="linkFooter col"><a class="text-decoration-none" href="">Preguntas frecuentes</a></div>
+                        <div class="linkFooter col"><a class="text-decoration-none" href="">Contáctanos</a></div>  
+                        <div class="linkFooter col"><a class="text-decoration-none" href="">Prensa</a></div>
+                        <div class="linkFooter col"><a class="text-decoration-none" href="">Conferencias</a></div>
+                        <div class="linkFooter col"><a class="text-decoration-none" href="">Términos y condiciones</a></div>
+                        <div class="linkFooter col"><a class="text-decoration-none" href="">Privacidad</a></div>
+                        <div class="linkFooter col"><a class="text-decoration-none" href="">Estudiantes</a></div>
                     </div>
                 </div>
             </footer>
     <script src="./js/bootstrap.min.js"></script>
     </body>
-    </html>
+</html>
