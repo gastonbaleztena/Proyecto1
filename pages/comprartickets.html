@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/estiloscomprartickets.css">
+    <title>Comprar tickets</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h2 class="title2">Conf Bs As</h2>
+        </div>    
+            <nav class="nav">
+                <a class="link" href="../index.html">La conferencia</a>
+                <a class="link" href="../index.html">Los oradores</a>
+                <a class="link" href="../index.html">El lugar y la fecha</a>
+                <a class="link" href="../index.html">Conviértete en orador</a>
+                <a class="link verde" href="#">Comprar tickets</a>
+            </nav>
+    </header>
+
+<!-- CARDS -->
+
+    <main class="container row g-3 mt-5">
+        <div class="card col m-1 border-primary card1">
+            <div class="card-body">
+              <h3 class="p-4 m-2 card-header">Estudiante</h5>
+              <h5 class="card-subtitle mb-2 text-muted p-3">Tiene un descuento</h6>
+              <p class="card-text fs-3 p-3">80%</p>
+              <p class="card-text fs-6 p-3">* presentar documentación</p>
+            </div>
+        </div>
+        <div class="card col m-1 border-success card2">
+            <div class="card-body">
+              <h3 class="p-4 m-2 card-header">Trainee</h5>
+              <h5 class="card-subtitle mb-2 text-muted p-3">Tiene un descuento</h6>
+              <p class="card-text fs-3 p-3">50%</p>
+              <p class="card-text fs-6 p-3">* presentar documentación</p>
+            </div>
+        </div>
+        </div>
+        <div class="card col m-1 border-warning card3">
+            <div class="card-body">
+              <h3 class="p-4 m-2 card-header">Junior</h5>
+              <h5 class="card-subtitle mb-2 text-muted p-3">Tiene un descuento</h6>
+              <p class="card-text fs-3 p-3">15%</p>
+              <p class="card-text fs-6 p-3">* presentar documentación</p>
+            </div>
+        </div>
+    </main>
+
+<!-- FORM -->
+
+    <section>
+        <div class="formPadre container mb-5">
+            <div class="headerForm mb-2">   
+                <p class="small">VENTA</p>
+                <h2 class="pb-3">VALOR DE TICKET $200</h2>
+            </div> 
+            <div>
+                <form class="row g-3" action="">
+                    <div class="col-6">
+                        <input type="text" class="form-control p-2 fs-5" placeholder="Nombre">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control p-2 fs-5" placeholder="Apellido">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control p-2 fs-5" placeholder="Correo">
+                    </div>
+                    <div class="col-6 fs-5">
+                        <p>Cantidad</p>
+                    </div>
+                    <div class="col-6 fs-5">
+                        <p>Categoria</p>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control p-2 fs-5" placeholder="cantidad">
+                    </div>
+                    <div class="col-6">
+                        <select class="form-select p-2 fs-5">
+                          <option selected disabled value="">Estudiante</option>
+                          <option>Sin categoria</option>
+                          <option>Trainee</option>
+                          <option>Junior</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div class="col-12 alert alert-primary fs-5">
+                            Total a pagar: $
+                        </div>
+                    </div>
+                        <div class="col">
+                            <button type=""class="col-12 btn btn-success btn-lg">Borrar</button>
+                        </div>
+                        <div class="col">
+                            <button type=""class="col-12 btn btn-success btn-lg">Resumen</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </section>
+  
+<!--FOOTER-->
+
+    <footer class="footerPadre p-4 container-fluid">
+         <div class="footerHijo contariner">  
+             <div class="enlacesPadre row">   
+                 <div class="linkFooter col"><a class="text-decoration-none" href="">Preguntas frecuentes</a></div>
+                <div class="linkFooter col"><a class="text-decoration-none" href="">Contáctanos</a></div>  
+                <div class="linkFooter col"><a class="text-decoration-none" href="">Prensa</a></div>
+                <div class="linkFooter col"><a class="text-decoration-none" href="">Conferencias</a></div>
+                <div class="linkFooter col"><a class="text-decoration-none" href="">Términos y condiciones</a></div>
+                <div class="linkFooter col"><a class="text-decoration-none" href="">Privacidad</a></div>
+                <div class="linkFooter col"><a class="text-decoration-none" href="">Estudiantes</a></div>
+            </div>
+        </div>
+    </footer>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/comprartickets.js"></script>
+</body>
+</html>

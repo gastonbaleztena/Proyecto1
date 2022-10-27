@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(52,58,64);
+    display: flex;
+    justify-content: center;
+    height: 5.5rem;
+}
+.logo{
+    padding-left: 3.5rem;
+    display: flex;
+    align-items: center;
+    width: 35%;  
+}
+.title2{
+    font-size: 1.6rem; 
+    color: white; 
+}
+.nav{
+    padding-right: 6rem;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.verde{
+    color: #2a9f44;
+}
+
+/* CARDS */
+
+.card1 {
+    text-align: center;
+    border: solid 2px;
+}
+.card2 {
+    text-align: center;
+    border: solid 2px;
+}
+.card3 {
+    text-align: center;
+    border: solid 2px;
+}
+
+/* SECTION FORMULARIO */
+
+.formPadre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.headerForm{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* SECTION FOOTER */
+
+.footerPadre{
+    background: rgb(28,54,67);
+    background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(28,69,91,1) 41%, rgba(30,83,114,1) 100%);
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.footerHijo{
+    font-size: 1.1rem;
+    font-weight: 500;
+    width: 70%;
+}
+.enlacesPadre{
+    align-items: center;
+}
+.linkFooter{
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1300px){
+
+    .header{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .logo{
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        justify-content: center; 
+    }
+    .nav{
+        width: 100%;
+        flex-direction: column;
+        padding: 0%;
+        display: flex;
+        align-items: stretch;   
+    }
+    .link{
+        display: inline-block;
+        padding: 0.8rem; 
+        border-bottom: 1px solid white;
+        width: 100%;     
+    }
+
+    /* SECTION FOOTER */
+
+    .footerHijo{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .enlacesPadre{
+        align-items: center;
+    }
+    .linkFooter{
+        text-align: center;
+        padding: 0.5rem;
+    }
+}
