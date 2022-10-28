@@ -25,41 +25,41 @@
 
 <!-- CARDS -->
 
-    <main class="container row g-3 mt-5">
-        <div class="card col m-1 border-primary card1">
+    <main class="container row justify-content-center mt-5">
+        <div class="card col-3 m-1 border-primary card1">
             <div class="card-body">
-              <h3 class="p-4 m-2 card-header">Estudiante</h5>
-              <h5 class="card-subtitle mb-2 text-muted p-3">Tiene un descuento</h6>
-              <p class="card-text fs-3 p-3">80%</p>
-              <p class="card-text fs-6 p-3">* presentar documentación</p>
+              <h3 class="p-4 m-2 card-header">Estudiante</h3>
+              <p class="fs-5 mb-2 text-muted p-3">Tiene un descuento</p>
+              <p class="fs-2 p-3">80%</p>
+              <p class="p-3 text-muted">* presentar documentación</p>
             </div>
         </div>
-        <div class="card col m-1 border-success card2">
+        <div class="card col-3 m-1 border-success card2">
             <div class="card-body">
-              <h3 class="p-4 m-2 card-header">Trainee</h5>
-              <h5 class="card-subtitle mb-2 text-muted p-3">Tiene un descuento</h6>
-              <p class="card-text fs-3 p-3">50%</p>
-              <p class="card-text fs-6 p-3">* presentar documentación</p>
+              <h3 class="p-4 m-2 card-header">Trainee</h3>
+              <p class="fs-5 mb-2 text-muted p-3">Tiene un descuento</p>
+              <p class="fs-2 p-3">50%</p>
+              <p class="p-3 text-muted">* presentar documentación</p>
             </div>
         </div>
         </div>
-        <div class="card col m-1 border-warning card3">
+        <div class="card col-3 m-1 border-warning card3">
             <div class="card-body">
-              <h3 class="p-4 m-2 card-header">Junior</h5>
-              <h5 class="card-subtitle mb-2 text-muted p-3">Tiene un descuento</h6>
-              <p class="card-text fs-3 p-3">15%</p>
-              <p class="card-text fs-6 p-3">* presentar documentación</p>
+              <h3 class="p-4 m-2 card-header">Junior</h3>
+              <p class="fs-5 mb-2 text-muted p-3">Tiene un descuento</p>
+              <p class="fs-2 p-3">15%</p>
+              <p class="p-3 text-muted">* presentar documentación</p>
             </div>
         </div>
     </main>
 
 <!-- FORM -->
 
-    <section>
+    <section class="mt-2">
         <div class="formPadre container mb-5">
             <div class="headerForm mb-2">   
                 <p class="small">VENTA</p>
-                <h2 class="pb-3">VALOR DE TICKET $200</h2>
+                <h2 class="pb-3 h2">VALOR DE TICKET $200</h2>
             </div> 
             <div>
                 <form class="row g-3" action="">
@@ -76,15 +76,16 @@
                         <p>Cantidad</p>
                     </div>
                     <div class="col-6 fs-5">
-                        <p>Categoria</p>
+                        <p>Categoría</p>
                     </div>
                     <div class="col-6">
                         <input type="text" class="form-control p-2 fs-5" placeholder="cantidad">
                     </div>
                     <div class="col-6">
                         <select class="form-select p-2 fs-5">
-                          <option selected disabled value="">Estudiante</option>
+                          <option selected disabled value="">-- Seleccione una categoría --</option>
                           <option>Sin categoria</option>
+                          <option>Estudiante</option>
                           <option>Trainee</option>
                           <option>Junior</option>
                         </select>

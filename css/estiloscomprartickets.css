@@ -41,26 +41,33 @@
 .card1 {
     text-align: center;
     border: solid 2px;
+    font-weight: 500;
 }
 .card2 {
     text-align: center;
     border: solid 2px;
+    font-weight: 500;
 }
 .card3 {
     text-align: center;
     border: solid 2px;
+    font-weight: 500;
 }
 
 /* SECTION FORMULARIO */
 
 .formPadre{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    width: 53%;
 }
 .headerForm{
     text-align: center;
     padding-top: 1rem;
+    font-size: 1.2rem;
+}
+.h2{
+    font-weight: 700;
 }
 
 /* SECTION FOOTER */
@@ -75,7 +82,7 @@
 .footerHijo{
     font-size: 1.1rem;
     font-weight: 500;
-    width: 70%;
+    width: 75%;
 }
 .enlacesPadre{
     align-items: center;
@@ -125,4 +132,35 @@
         text-align: center;
         padding: 0.5rem;
     }
+            
+    /* SECTION TARJETAS */
+    
+    .sectionTarjetas{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 2.5rem;
+        padding-top: 0.5rem;
+    }
+
+    .padreTarjetas{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tarjetas__flex{
+        width: 75%;
+        flex-direction: column;
+    } 
+    .card1 .card2 .card3{
+        width: 100%;
+        margin-top: 5px;
+        box-shadow: 6px 9px 25px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 6px 9px 25px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 6px 9px 25px 0px rgba(0,0,0,0.75);
+    }
+
+
+
 }
