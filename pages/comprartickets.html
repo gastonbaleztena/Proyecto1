@@ -64,42 +64,42 @@
             <div>
                 <form class="row g-3" action="">
                     <div class="col-6">
-                        <input type="text" class="form-control p-2 fs-5" placeholder="Nombre">
+                        <input type="text" class="form-control p-2 fs-5" placeholder="Nombre" id="nombre" required>
                     </div>
                     <div class="col-6">
-                        <input type="text" class="form-control p-2 fs-5" placeholder="Apellido">
+                        <input type="text" class="form-control p-2 fs-5" placeholder="Apellido" id="apellido" required>
                     </div>
                     <div class="col-12">
-                        <input type="text" class="form-control p-2 fs-5" placeholder="Correo">
+                        <input type="email" class="form-control p-2 fs-5" placeholder="Email" id="mail" required>
                     </div>
                     <div class="col-6 fs-5">
-                        <p>Cantidad</p>
+                        <label for="cantidadTickets" class="form-label">Cantidad</label>
                     </div>
                     <div class="col-6 fs-5">
-                        <p>Categoría</p>
+                        <label for="categoriaSelect" class="form-label">Categoría</label>
                     </div>
                     <div class="col-6">
-                        <input type="text" class="form-control p-2 fs-5" placeholder="cantidad">
+                        <input type="number" class="form-control p-2 fs-5" placeholder="cantidad" id="cantidadTickets">
                     </div>
                     <div class="col-6">
-                        <select class="form-select p-2 fs-5">
-                          <option selected disabled value="">-- Seleccione una categoría --</option>
-                          <option>Sin categoria</option>
-                          <option>Estudiante</option>
-                          <option>Trainee</option>
-                          <option>Junior</option>
+                        <select class="form-select p-2 fs-5" id="categoriaSelect">
+                          <option value="" selected>-- Seleccione una categoría --</option>
+                          <option value="0">Sin categoria</option>
+                          <option value="1">Estudiante</option>
+                          <option value="2">Trainee</option>
+                          <option value="3">Junior</option>
                         </select>
                     </div>
                     <div>
                         <div class="col-12 alert alert-primary fs-5">
-                            <p>Total a pagar: $</p>
+                            Total a pagar: $ <span id="totalPago" class="align-middle"></span>
                         </div>
                     </div>
                         <div class="col">
-                            <button type=""class="col-12 btn btn-success btn-lg">Borrar</button>
+                            <button type="reset" id="btnBorrar" class="col-12 btn btn-success btn-lg">Borrar</button>
                         </div>
                         <div class="col">
-                            <button type=""class="col-12 btn btn-success btn-lg">Resumen</button>
+                            <button type="button" id="btnResumen" class="col-12 btn btn-success btn-lg">Resumen</button>
                         </div>
                 </form>
             </div>
