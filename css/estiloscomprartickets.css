@@ -119,6 +119,23 @@
         width: 100%;     
     }
 
+    /*SECTION DESCUENTOS */
+    
+    .descuentos{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+    .card1{
+        width: 100%;
+    }
+    .card2{
+        width: 100%;
+    }
+    .card3{
+        width: 100%;
+    }
+
     /* SECTION FOOTER */
 
     .footerHijo{
@@ -132,34 +149,7 @@
         text-align: center;
         padding: 0.5rem;
     }
-            
-    /* SECTION TARJETAS */
-    
-    .sectionTarjetas{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding-bottom: 2.5rem;
-        padding-top: 0.5rem;
-    }
 
-    .padreTarjetas{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .tarjetas__flex{
-        width: 75%;
-        flex-direction: column;
-    } 
-    .card1 .card2 .card3{
-        width: 100%;
-        margin-top: 5px;
-        box-shadow: 6px 9px 25px 0px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 6px 9px 25px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 6px 9px 25px 0px rgba(0,0,0,0.75);
-    }
 
 
 
