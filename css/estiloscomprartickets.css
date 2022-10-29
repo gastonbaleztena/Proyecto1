@@ -42,16 +42,25 @@
     text-align: center;
     border: solid 2px;
     font-weight: 500;
+    box-shadow: 6px 9px 25px 0px rgba(18, 88, 240, 0.75);
+    -webkit-box-shadow: 6px 9px 25px 0px rgba(18, 88, 240, 0.75);
+    -moz-box-shadow: 6px 9px 25px 0px rgba(18, 88, 240, 0.75);
 }
 .card2 {
     text-align: center;
     border: solid 2px;
     font-weight: 500;
+    box-shadow: 6px 9px 25px 0px rgba(4, 133, 15, 0.87);
+    -webkit-box-shadow: 6px 9px 25px 0px rgba(4, 133, 15, 0.87);
+    -moz-box-shadow: 6px 9px 25px 0px rgba(4, 133, 15, 0.87);
 }
 .card3 {
     text-align: center;
     border: solid 2px;
     font-weight: 500;
+    box-shadow: 6px 9px 25px 0px rgba(240, 201, 27, 0.75);
+    -webkit-box-shadow: 6px 9px 25px 0px rgba(240, 201, 27, 0.75);
+    -moz-box-shadow: 6px 9px 25px 0px rgba(240, 201, 27, 0.75);
 }
 
 /* SECTION FORMULARIO */
@@ -125,7 +134,7 @@
     display: flex;
     align-items: center;
     flex-direction: column; 
-}
+    }
     .card1{
         width: 100%;
     }
@@ -136,6 +145,11 @@
         width: 100%;
     }
 
+    /* FORM */
+
+    .formPadre{
+        width: 80%;
+    }
     /* SECTION FOOTER */
 
     .footerHijo{
@@ -149,8 +163,4 @@
         text-align: center;
         padding: 0.5rem;
     }
-
-
-
-
 }
