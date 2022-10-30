@@ -3,8 +3,8 @@ const valorTicket = 200;
 
 // Porcentajes de descuento //
 let descuentoEstudiante  = 80;
-let descuentoTrainee    = 50;
-let descuentoJunior     = 15;
+let descuentoTrainee     = 50;
+let descuentoJunior      = 15;
 
 // Elementos en variables //
 let nombre          = document.getElementById("nombre");
@@ -86,20 +86,20 @@ function TotalAPagar() {
     let totalValorTickets = (cantidadTickets.value) * valorTicket;
 
     // Aplico descuentos segun categoria //
-    if (categoria.value == 0) {
-        totalValorTickets = totalValorTickets ;
-    }
     if (categoria.value == 1) {
         totalValorTickets = totalValorTickets - (descuentoEstudiante / 100 * totalValorTickets);
     }
-    if (categoria.value == 2) {
+    else if (categoria.value == 2) {
         totalValorTickets = totalValorTickets - (descuentoTrainee / 100 * totalValorTickets);
     }
-    if (categoria.value == 3) {
+    else if (categoria.value == 3) {
         totalValorTickets = totalValorTickets - (descuentoJunior / 100 * totalValorTickets);
     }
+    else (categoria.value == 0); {
+        totalValorTickets = totalValorTickets ;
+    }
 
-    // Inserto el valor en el HTML
+    // Inserto el valor en el HTML //
     totalPago.innerHTML = totalValorTickets;
 
 }
