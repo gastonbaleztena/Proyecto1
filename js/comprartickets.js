@@ -59,6 +59,7 @@ function TotalAPagar() {
         return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mail);
     }
 
+    // Verifico si esta ingresado el correo, sino que aplique un estilo de error haciendo foco en Email //
     if (!mailValido(mail.value)) {
         alert("Por favor, escribí un correo electrónico válido.");
         mail.classList.add("is-invalid");
@@ -66,7 +67,7 @@ function TotalAPagar() {
         return;
     }
 
-    // Verifico si esta ingresado al menos 1 ticket, sino que aplique un estilo de error, haga foco en el campo //
+    // Verifico si esta ingresado al menos 1 ticket, sino que aplique un estilo de error haciendo foco en Cant //
     if ( (cantidadTickets.value == 0) || (isNaN(cantidadTickets.value)) ) {
         alert(" Por favor, ingresá correctamente la cantidad de tickets. ");
         cantidadTickets.classList.add("is-invalid");
@@ -74,7 +75,7 @@ function TotalAPagar() {
         return;
     }
 
-    // Verifico si esta ingresado al menos 1 ticket, sino que aplique un estilo de error, haga foco en el campo //
+    // Verifico si esta ingresada la cat, sino que aplique un estilo de error haciendo foco en Cat //
     if (categoria.value == "") {
         alert("Por favor, seleccioná una categoría.");
         categoria.classList.add("is-invalid");
